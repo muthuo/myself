@@ -1,2 +1,1 @@
-# myself
-learning programing
+
