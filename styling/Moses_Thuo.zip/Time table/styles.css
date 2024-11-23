@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+/* Timetable Container */
+.timetable-container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+/*Table Styling */
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: antiquewhite;
+}
+/* Header Styling */
+.timetable thead {
+    background-color: burlywood;
+    color: beige;
+    font-size: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+/* Activity Row (e.g., Morning Assembly)*/
+.timetable .activity {
+    background-color: #FFF0B2;
+    font-weight: bold;
+    font-style: inherit;
+}
+/* Lunch Row */
+.timetable .lunch {
+    background-color: bisque;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Zebra Strippes for Body Rows */
+.timetable tbody tr:nth-child(even)td {
+    background-color: #f9f9f9;
+}
+/*Highligth Borders 8/
+.timetable td,
+.timetable th {border: 1px solid #ccc;
+}
